@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family:'Poppins',sans-serif;
+}
+
+.banner {
+  background: url("/img/bnr.png")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.kontak {
+  background: url("https://i.im.ge/2022/07/07/uWRxWC.jpg") no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+.slogan {
+  background: url("https://i.im.ge/2022/07/08/ukl8L0.png") no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+
+.quote {
+   overflow: hidden;
+   background-color: #3fbbc0;
+}
+ul.quote {
+   display: block;
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   line-height: 1;
+   position: relative;
+   overflow: hidden;
+   height: 50px;
+   background-color: transparent;
+}
+ul.quote li {
+   color: #fff;
+   position: absolute;
+   top: -950em;
+   left: 0;
+   display: block;
+   white-space: nowrap;
+   font: 18px Helvetica, Arial, sans-serif;
+   padding: 17px 15px 15px 15px;
+}
+ul.quote li span {
+   color: #fff;
+   font-weight: bold;
+}
+
+
+.sk{
+  float: left;
+  width: 50%;
+  border-radius: 20px;
+  width: 400px;
+  padding-left: -100px;
+}
+
+.tombol{
+  border-radius: 10px;
+}
+.tombol a{
+  color:white;
+}
+h2,p{
+  color:black;
+}
+
+.kata_slogan{
+  font-weight: bold;
+}
+
+#sambut{
+  font-weight: bold;
+}
+#sambutan{
+  font-weight: bold;
+}
+
+.nav-link li a{
+  text-decoration: none;
+
+}
+
+.nav_link li a{
+  text-decoration: none;
+}
+
+.nav-link li a:hover{
+  color: #abe0f6;
+  transition: 350ms;
+}
+
+.nav_link li a:hover{
+  color: #abe0f6;
+  transition: 350ms;
+}
+
+
+.grid {
+  background: url("https://i.im.ge/2022/07/10/uvsy79.png") no-repeat center center;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+
+}
+
+.footer {
+  color: #abe0f6;
+}
